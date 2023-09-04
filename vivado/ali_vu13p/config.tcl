@@ -60,4 +60,4 @@ set skip_pins_by_index {}
 set skip_pins_by_name { AY23 BA23 AY22 BA22 }
 
 # only include a list of pins
-set designate_pins_by_name { A1 A2 }
+set designate_pins_by_name { BA7 BB7 BB9 BB10 BB11 BC7 BC8 BC11 BC12 BD8 BD9 BF12 }  ;# these are io pins on two qsfp28 interfaces

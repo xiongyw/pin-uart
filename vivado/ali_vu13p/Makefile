@@ -1,3 +1,4 @@
+export PATH=/opt/xilinx/Vivado/2023.1/bin:$(shell echo $$PATH)
 
 # FPGA settings
 FPGA_PART = xcvu13p-fhgb2104-2L-e
