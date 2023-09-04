@@ -49,6 +49,11 @@ if {[info exists skip_pins_by_name]} {
     }
 }
 
+# override pins
+if {[info exists designate_pins_by_name]} {
+    set pins $designate_pins_by_name
+}
+
 # configuration
 
 # clock source
